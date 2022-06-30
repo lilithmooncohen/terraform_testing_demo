@@ -17,7 +17,7 @@ Add the needed tools via asdf:
 ```bash
 asdf plugin-add terraform
 asdf plugin-add golang
-asdf
+asdf install
 ```
 
 Initialize the `test` go module:
