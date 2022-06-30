@@ -151,6 +151,11 @@ It passed! Now lets validate some outputs!
 +       assert.Equal(t, expectedDescription, actualOutputDescription)
 ```
 
+Now let's run a test to see if our output assertions are working:
+```bash
+go test -timeout 30m
+```
+
 Output:
 
 ```bash
