@@ -1,7 +1,7 @@
 module "example" {
   source = "../../"
 
-  name          = var.name
-  description   = "${var.name} created by Terraform"
+  nam           = var.name
+  description   = "${var.name} created by TF"
   random_suffix = var.random_suffix
 }
